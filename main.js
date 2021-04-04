@@ -7,4 +7,4 @@ const Messages = [
   "Stay inspired ",
   " try again",
 ];
-console.log(Messages[Math.floor(Math.random * Messages.length)]);
+console.log(Messages[Math.floor(Math.random() * Messages.length)]);
