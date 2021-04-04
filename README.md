@@ -1,4 +1,4 @@
-# MixedMessags Project
+# MixedMessages Project
 > a simple script that generate a random message!
 
 ## Table of contents
