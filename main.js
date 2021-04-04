@@ -1,10 +1,19 @@
-const Messages = [
-  "Have a nime day!",
-  "Be Happy",
-  " dont forget to improve your skills",
-  "Stay creative",
-  "Code , code and code ",
-  "Stay inspired ",
-  " try again",
+const name = ["Mohamed", "Nour", "Steven", "Saed", "Ali", "Arthur"];
+const verb = ["Likes", "Uses", "Hate", "Rocks", "Love", "is Learning "];
+const Languages = [
+  "python",
+  "java",
+  "Ruby",
+  "javascript",
+  "Scala",
+  "C++",
+  "C#",
+  "Perl",
 ];
-console.log(Messages[Math.floor(Math.random() * Messages.length)]);
+console.log(
+  name[Math.floor(Math.random() * name.length)] +
+    " " +
+    verb[Math.floor(Math.random() * verb.length)] +
+    " " +
+    Languages[Math.floor(Math.random() * Languages.length)]
+);
